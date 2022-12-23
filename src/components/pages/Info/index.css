@@ -18,14 +18,19 @@
 
 .info__text>p {
     color: #FFF;
+    margin-left: 5%;
 }
 
 .hamburguer-img {
     display: flex;
 }
 
+.hamburguer-img>img{
+    width: 100%;
+}
 
-@media (max-width: 767px) {
+
+@media (max-width: 968px) {
 
     .info__container {
         flex-direction: column;
