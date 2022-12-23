@@ -5,6 +5,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* margin: 2%; */
+  /* background-color: #fccc28; */
+  background-color: #FFF;
+  font-family: 'Permanent Marker', cursive;
+  font-family: 'Roboto', sans-serif;
 }
 
 code {

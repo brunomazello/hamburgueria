@@ -1,0 +1,89 @@
+.home__container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    /* background: fixed url('https://i.etsystatic.com/23444619/r/il/6e873d/2895136820/il_fullxfull.2895136820_aayy.jpg') no-repeat; */
+    background-color: #000;
+}
+
+.home__container>img {
+    position: relative;
+    width: 46%;
+    left: 2%;
+    margin-bottom: 50px;
+}
+
+.home__container>img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: 2.25s all;
+}
+
+.home__desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+    margin-right: 30px;
+}
+
+.home__desc>h1 {
+    font-size: 5rem;
+    margin: 0 auto;
+    color: #000;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.home__desc>h1:hover {
+    transition: 0.25s all;
+}
+
+.home__desc>p {
+    color: #000;
+
+}
+
+.home__desc:hover {
+    border-radius: 15px;
+    transition: 1s all;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+@media (max-width: 767px) {
+
+    .home__container {}
+
+    .home__container>img:hover {
+        transform: scale(1.19);
+    }
+
+    .home__container>img {
+        width: 55%;
+        top: 17%;
+        margin-bottom: 30px;
+    }
+
+    .home__container>h1 {
+        display: none;
+    }
+
+    .home__desc {
+        padding: 15px 5px 5px 5px;
+        margin-right: 15px;
+        margin-left: 5px;
+        display: none;
+    }
+
+    .home__desc>h1 {
+        font-size: 1.3rem;
+    }
+
+    .home__desc>p {
+        font-size: 1rem;
+    }
+
+}

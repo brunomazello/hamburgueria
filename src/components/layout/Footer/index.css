@@ -1,0 +1,6 @@
+.footer_container {
+    border-top: 5px solid #fccc28;
+    display: flex;
+    justify-content: center;
+    background-color: #242423;
+}

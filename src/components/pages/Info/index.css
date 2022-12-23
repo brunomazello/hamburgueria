@@ -1,0 +1,44 @@
+.info__container {
+    display: flex;
+    justify-content: center;
+    background: repeat 100% url('http://www.bradda.com.br/wp-content/uploads/2016/03/01_portfolio_UJ_02pb_01.jpg');
+    border-top: 5px solid #fccc28;
+    border-bottom: 5px solid #fccc28;
+    align-items: center;
+}
+
+.info__text {
+    width: 50%;
+}
+
+.info__text>h1 {
+    color: #fccc28;
+    text-align: center;
+}
+
+.info__text>p {
+    color: #FFF;
+}
+
+.hamburguer-img {
+    display: flex;
+}
+
+
+@media (max-width: 767px) {
+
+    .info__container {
+        flex-direction: column;
+    }
+
+    .info__text {
+        text-align: justify;
+        width: 85%;
+    }
+
+    .hamburguer-img>img {
+        width: 100%;
+    }
+
+
+}
