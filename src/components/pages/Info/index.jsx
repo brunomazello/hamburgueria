@@ -3,7 +3,7 @@ import hamburguer from "../../../img/hamburguer-2.png";
 
 function index() {
   return (
-    <div className="info__container">
+    <div className="info__container" id="cardapio">
       <div className="info__text">
         <h1>Sabor, Experiência e Hambúrguer!</h1>
         <p>

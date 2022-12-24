@@ -1,0 +1,40 @@
+.scrolltop_container {
+    z-index: 99999;
+    position: fixed;
+    margin-left: 93%;
+    margin-top: 45%;
+    width: 100%;
+    height: auto;
+}
+
+.material-symbols-outlined {
+    color: #fccc28;
+    font-size: 75px;
+    border: 1px solid transparent;
+    border-radius: 60px;
+    background-color: black;
+}
+
+.scrolltop_container:hover {
+    cursor: pointer;
+    border-radius: 60px;
+}n
+
+.material-symbols-outlined:hover {
+    transform: scale(1.3) translate(0%, -2%);
+    transition: 0.25s all;
+    background-color: #FFF;
+}
+
+
+@media (max-width: 600px) {
+
+    .scrolltop_container {
+        margin-left: 970px;
+        margin-top: 750px;
+    }
+
+    .material-symbols-outlined{
+        font-size: 30px;
+    }
+}

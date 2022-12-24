@@ -1,5 +1,16 @@
 import styles from "../Navbar/index.css";
 import hamburgueriaLOGO from "../../../img/hamburgueria-logo.png";
+import ScrollTop from "../ScrollTop"
+import * as Scroll from "react-scroll";
+import {
+  Link,
+  Button,
+  Element,
+  Events,
+  animateScroll as scroll,
+  scrollSpy,
+  scroller,
+} from "react-scroll";
 
 function index() {
   return (
@@ -7,15 +18,44 @@ function index() {
       <img src={hamburgueriaLOGO} alt="" />
       <ul className="nav__menu">
         <li>
-          <a href="">Home</a>
+          <Link
+            activeClass="active"
+            to="inicio"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+            id="inicio"
+          >
+            Home
+          </Link>
         </li>
         <li>
-          <a href="">Cardápio</a>
+          <Link
+            activeClass="active"
+            to="cardapio"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            Cardápio
+          </Link>
         </li>
         <li>
-          <a href="">Contato</a>
+          <Link
+            activeClass="active"
+            to="local"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            Contato
+          </Link>
         </li>
       </ul>
+      <ScrollTop />
     </nav>
   );
 }

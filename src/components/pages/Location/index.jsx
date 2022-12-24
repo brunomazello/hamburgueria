@@ -2,7 +2,7 @@ import styles from "../Location/index.css";
 
 function index() {
   return (
-    <div className="location__container">
+    <div className="location__container" id="local">
       <div className="location__text">
         <h1>Local</h1>
         <div className="location__desc">
