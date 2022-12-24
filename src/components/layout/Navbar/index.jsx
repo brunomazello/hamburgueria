@@ -1,6 +1,6 @@
 import styles from "../Navbar/index.css";
 import hamburgueriaLOGO from "../../../img/hamburgueria-logo.png";
-import ScrollTop from "../ScrollTop"
+import ScrollTop from "../ScrollTop";
 import * as Scroll from "react-scroll";
 import {
   Link,
@@ -15,7 +15,7 @@ import {
 function index() {
   return (
     <nav className="nav__container">
-      <img src={hamburgueriaLOGO} alt="" />
+      <img src={hamburgueriaLOGO} alt="" id="inicio" />
       <ul className="nav__menu">
         <li>
           <Link
@@ -25,7 +25,6 @@ function index() {
             smooth={true}
             offset={-70}
             duration={500}
-            id="inicio"
           >
             Home
           </Link>
