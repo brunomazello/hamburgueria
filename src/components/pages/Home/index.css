@@ -5,6 +5,7 @@
     justify-content: center;
     /* background: fixed url('https://i.etsystatic.com/23444619/r/il/6e873d/2895136820/il_fullxfull.2895136820_aayy.jpg') no-repeat; */
     background-color: #000;
+    height: 90vh;
 }
 
 .home__container>img {
@@ -54,6 +55,9 @@
 }
 
 @media (max-width: 767px) {
+    .home__container {
+        height: auto;
+    }
 
     .home__container>img:hover {
         transform: scale(1.19);

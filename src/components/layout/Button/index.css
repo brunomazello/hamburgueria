@@ -3,11 +3,12 @@
     justify-content: center;
     margin-top: 30px;
     margin-bottom: 30px;
-    
+
 }
 
 .btn-button>a:link {
     text-decoration: none;
+    color: inherit;
 }
 
 
@@ -19,11 +20,13 @@
 
 .btn-button>a:hover {
     text-decoration: none;
+    color: inherit;
 }
 
 
 .btn-button>a:active {
     text-decoration: none;
+    color: inherit;
 }
 
 .btn-button {
@@ -34,7 +37,7 @@
     color: #000;
     font-family: 'Permanent Marker', cursive;
     font-size: 1.5rem;
-    
+
 }
 
 .btn-button>a:hover {
