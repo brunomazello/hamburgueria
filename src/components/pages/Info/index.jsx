@@ -37,8 +37,11 @@ function index() {
         </p>
         <Button texto="Cardápio Online" url="https://www.google.com.br" />
       </div>
-      <div className="hamburguer-img">
-        <AnimationOnScroll animateIn="animate__fadeInLeftBig">
+      <div>
+        <AnimationOnScroll
+          animateIn="animate__fadeInLeftBig"
+          className="hamburguer-img"
+        >
           <img src={hamburguer} alt="" />
         </AnimationOnScroll>
       </div>
