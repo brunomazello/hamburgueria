@@ -38,3 +38,12 @@
         font-size: 30px;
     }
 }
+
+@media (min-width: 600px) {
+
+    .scrolltop_container {
+        display: none;
+    }
+}
+
+
