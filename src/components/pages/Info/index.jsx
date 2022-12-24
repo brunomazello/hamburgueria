@@ -1,5 +1,7 @@
 import styles from "./index.css";
 import hamburguer from "../../../img/hamburguer-2.png";
+import Button from "../../layout/Button";
+import { AnimationOnScroll } from "react-animation-on-scroll";
 
 function index() {
   return (
@@ -33,9 +35,12 @@ function index() {
           deserunt at eligendi sapiente consectetur culpa ad! Vero in a amet
           doloremque.
         </p>
+        <Button texto="Cardápio Online" url="https://www.google.com.br" />
       </div>
       <div className="hamburguer-img">
-        <img src={hamburguer} alt="" />
+        <AnimationOnScroll animateIn="animate__fadeInLeftBig">
+          <img src={hamburguer} alt="" />
+        </AnimationOnScroll>
       </div>
     </div>
   );

@@ -55,8 +55,6 @@
 
 @media (max-width: 767px) {
 
-    .home__container {}
-
     .home__container>img:hover {
         transform: scale(1.19);
     }
