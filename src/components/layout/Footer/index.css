@@ -2,4 +2,52 @@
     display: flex;
     justify-content: center;
     background-color: #fccc28;
+    height: auto;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer_container>h2 {
+    font-size: 1.5rem;
+}
+
+.footer_container>footer>a {
+    font-size: 65px;
+    color: #000;
+    margin-right: 60px;
+}
+
+.footer_container>footer>a:last-child {
+    margin-right: 0px;
+}
+
+.footer_container>footer {
+    margin-top: 15px;
+}
+
+.footer_container>footer>a:hover {
+    color: #FFF;
+    transition: 1s all;
+}
+
+@media (max-width: 600px) {
+
+    .footer_container>footer>a {
+        font-size: 45px;
+        margin-right: 35px;
+    }
+
+    .footer_container>footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer_container {
+        flex-direction: column;
+    }
+
+    .footer_container>h2 {
+        font-size: 1.2rem;
+    }
 }

@@ -40,6 +40,7 @@ function index() {
       <div>
         <AnimationOnScroll
           animateIn="animate__fadeInLeftBig"
+          animateOnce={true}
           className="hamburguer-img"
         >
           <img src={hamburguer} alt="" />
